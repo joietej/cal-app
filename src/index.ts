@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { logger } from "hono/logger"
-import { showRoutes } from "Hono/dev"
+import { showRoutes } from "hono/dev"
 import calendar from "./cal";
 
 const app = new Hono();
