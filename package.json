@@ -9,6 +9,7 @@
     "ical-generator": "^6.0.0"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "latest",
     "bun-types": "^1.0.7"
   }
 }
