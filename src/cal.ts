@@ -8,7 +8,7 @@ calendar.prodId({company:"foo", product:"Google Calendar 70.9054"})
 calendar.method(ICalCalendarMethod.PUBLISH)
 calendar.scale('gregorian')
 calendar.timezone("America/New_York")
-calendar.ttl(60 * 60 * 24)
+calendar.ttl(60)
 
 const startTime = new Date();
 const endTime = new Date();
