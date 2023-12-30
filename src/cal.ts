@@ -21,9 +21,12 @@ calendar.createEvent({
   location: "My room",
 });
 
+startTime.setDate(startTime.getDate() + 1)
+endTime.setDate(endTime.getDate() + 1)
+
 calendar.createEvent({
-  start: startTime.setDate(startTime.getDate() + 1),
-  end: endTime.setDate(endTime.getDate() + 1),
+  start: startTime,
+  end: endTime,
   summary: "Example Event 2",
   description: "It works too",
   location: "My another room",
